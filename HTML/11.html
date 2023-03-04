@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>media query</title>
+   <style>
+    body{
+        background-color: black;
+    }
+    .container{
+        
+      background-color: olivedrab;
+    }
+    h1{
+
+/* background-color: forestgreen; */
+
+
+    }
+    .box{
+        text-align: center;
+        /* background-color: darksalmon; */
+        font-size: 45px;
+        display: none;
+        
+        
+    }
+    @media(min-width: 200px) and (max-width: 400px){
+    #box1{
+        display: block;
+        background-color: brown;
+        color: black;
+        border: 2px solid wheat;
+    }
+}
+@media(min-width: 400px) and (max-width: 600px){
+    #box2{
+        display: block;
+        background-color: blue;
+        color: beige;
+        border: 2px solid rgb(212, 144, 19);
+    }
+}
+@media(min-width: 600px) and (max-width: 800px){
+    #box3{
+        display: block;
+        background-color: chartreuse;
+        color: brown;
+        border: 2px solid rgb(203, 11, 43);
+    }
+}
+@media(min-width: 800px){
+    #box4{
+        display: block;
+        background-color: darkgoldenrod;
+        color: darkred;
+        border: 2px solid rgb(117, 237, 37);
+    }
+}
+   </style>
+</head>
+<body>
+    <div class="container">
+        <h1 class="box" id="box1">i am sandip</h1>
+        <h1 class="box" id="box2">i am santosh</h1>
+        <h1 class="box" id="box3">i am priya</h1>
+        <h1 class="box" id="box4">i am umesh</h1>
+    </div>
+</body>
+</html>

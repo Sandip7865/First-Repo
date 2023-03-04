@@ -1,0 +1,127 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch SS",
+            "request": "launch",
+            "mainClass": "SS",
+            "projectName": "java_5eea7a78"
+        },
+        {
+            "type": "java",
+            "name": "Launch b",
+            "request": "launch",
+            "mainClass": "b",
+            "projectName": "java_5eea7a78"
+        },
+        {
+            "type": "java",
+            "name": "Launch A",
+            "request": "launch",
+            "mainClass": "A",
+            "projectName": "java_5eea7a78"
+        },
+        {
+            "type": "java",
+            "name": "Launch diamod",
+            "request": "launch",
+            "mainClass": "diamod",
+            "projectName": "java_5eea7a78"
+        },
+        {
+            "type": "java",
+            "name": "Launch consolep",
+            "request": "launch",
+            "mainClass": "consolep",
+            "projectName": "java_5eea7a78"
+        },
+        {
+            "type": "java",
+            "name": "Launch program1",
+            "request": "launch",
+            "mainClass": "program1",
+            "projectName": "java_5eea7a78"
+        },
+        {
+            "type": "java",
+            "name": "Launch program",
+            "request": "launch",
+            "mainClass": "program",
+            "projectName": "java_5eea7a78"
+        },
+        {
+            "type": "java",
+            "name": "Launch hashmap",
+            "request": "launch",
+            "mainClass": "hashmap",
+            "projectName": "java_5eea7a78"
+        },
+        {
+            "type": "java",
+            "name": "Launch array2",
+            "request": "launch",
+            "mainClass": "array2",
+            "projectName": "java_5eea7a78"
+        },
+        {
+            "type": "java",
+            "name": "Launch linklist",
+            "request": "launch",
+            "mainClass": "linklist",
+            "projectName": "java_5eea7a78"
+        },
+        {
+            "type": "java",
+            "name": "Launch aaray",
+            "request": "launch",
+            "mainClass": "aaray",
+            "projectName": "java_5eea7a78"
+        },
+        {
+            "type": "java",
+            "name": "Launch stack",
+            "request": "launch",
+            "mainClass": "stack",
+            "projectName": "java_5eea7a78"
+        },
+        {
+            "type": "java",
+            "name": "Launch qq",
+            "request": "launch",
+            "mainClass": "qq",
+            "projectName": "java_5eea7a78"
+        },
+        {
+            "type": "java",
+            "name": "Launch ss",
+            "request": "launch",
+            "mainClass": "ss",
+            "projectName": "java_5eea7a78"
+        },
+        {
+            "type": "java",
+            "name": "Launch ll",
+            "request": "launch",
+            "mainClass": "ll",
+            "projectName": "java_5eea7a78"
+        },
+        {
+            "type": "java",
+            "name": "Launch sandip",
+            "request": "launch",
+            "mainClass": "sandip",
+            "projectName": "java_5eea7a78"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main",
+            "request": "launch",
+            "mainClass": "Main",
+            "projectName": "java_5eea7a78"
+        }
+    ]
+}

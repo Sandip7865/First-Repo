@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>visibility and index</title>
+    <style>
+        .container{
+            border: 2px solid black;
+            display: flex;
+            height:  321px;
+            /* flex-direction: unset;
+            flex-wrap: wrap;
+            flex-wrap: wrap-reverse; */
+            flex-flow: row-reverse wrap;
+            justify-content: center;
+            justify-content: space-between;
+            justify-content: space-evenly;
+            /* justify-content: space-around; */
+          align-items: center;
+        }
+        .box {
+            
+            width: 120px;
+            height: 120px;
+            border: 2px solid black;
+            position: relative;
+            top: 12px;
+            right: 12px;
+            padding: 12px;
+            margin: 12px;
+        
+         
+        }
+        #box1{ 
+            
+            background-color: green;
+        }
+        #box2{
+             
+        /* visibility: hidden;
+        display: none; */
+        }
+        #box3{ background-color: blue;
+           
+}
+        #box4{ background-color: rgb(232, 223, 223);
+           
+        }
+        div{
+            font-size: larger;
+          text-align: center;    
+         }
+        
+    </style>
+</head>
+<body>
+    <div class = "container">
+    <div class="box" id="box1">sandip</div>
+    <div class="box" id="box2">santosh</div>
+    <div class="box" id="box3">umesh</div>
+    <div class="box" id="box4">priya</div>
+</div>
+</body>
+</html>
